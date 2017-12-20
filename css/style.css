@@ -1,0 +1,220 @@
+@font-face {
+    font-family: dancing_script;
+    src: url(fonts/dancing-script/dancingscript-regular-webfont.woff2) format('woff2'), url(fonts/dancing-script/dancingscript-regular-webfont.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+.page {
+    font-family: serif;
+    font-size: 20px;
+    margin: 10px 20px;
+}
+.navbar-fixed-top {
+    width: 100%}
+.fixed-top {
+    border-color: transparent;
+    background: rgba(225, 225, 225, .5);
+    margin-bottom: 0;
+    min-height: 40px;
+}
+.fixed-top .top_nav {
+    display: inline-block;
+    float: none;
+}
+.fixed-top .top_nav li {
+    display: inline-block;
+}
+.fixed-top .top_nav li a {
+    text-transform: lowercase;
+    color: #000;
+    text-align: center;
+}
+.fixed-top .top_nav li a:focus, .fixed-top .top_nav li a:hover {
+    text-transform: lowercase;
+    color: maroon;
+    font-weight: 700;
+    transition: transform .3s;
+}
+.fixed-top .top_nav .active {
+    text-transform: lowercase;
+    color: maroon;
+    font-weight: 700;
+}
+.fixed-top .top_nav .links {
+    padding: 10px;
+}
+.fixed-top #myNavbar {
+    text-align: right;
+}
+.mainPage .about_me>h2, .mainPage .contact_me>h2, .mainPage .projects_me>h2 {
+    font-size: 40px;
+}
+.mainPage .project_img {
+    cursor: pointer;
+}
+.mainPage .underline {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #000;
+}
+.mainPage .separator {
+    border: 1px solid maroon;
+    margin: 0;
+}
+.mainPage .nav_separator {
+    border-bottom: .1em solid maroon;
+    margin: 0 13px;
+    border-top: rgba(234, 239, 229, .5);
+}
+.mainPage .sections {
+    min-height: 500px;
+    background-color: #fff;
+    text-align: justify;
+}
+.mainPage .contact_me .comments {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    resize: none;
+    font-size: 14px;
+}
+.mainPage .contact_me .comments::-webkit-input-placeholder {
+    color: #999;
+}
+.mainPage .contact_me .submit_btn {
+    background-color: maroon;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.mainPage .my_contacts_info {
+    border-left: 1px solid maroon;
+    padding-left: 20px;
+    margin-top: 115px;
+}
+.mainPage .my_credentials label {
+    display: block;
+    padding: 20px 0;
+    padding-bottom: 0;
+}
+.mainPage .my_credentials span {
+    font-size: 18px;
+    color: maroon;
+}
+.mainPage .my_credentials a {
+    color: maroon;
+}
+.mainPage .my_credentials a:hover {
+    text-decoration: none;
+}
+.mainPage .jumbo2 {
+    height: 600px;
+    background-color: #fff;
+}
+.mainPage .see_more {
+    text-align: center;
+}
+.mainPage .see_more a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+.mainPage .see_more .see_more_btn {
+    background-color: maroon;
+    font-size: 20px;
+}
+.mainPage .see_more .see_more_btn:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+#scroll {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: maroon;
+    text-indent: -9999px;
+    display: none;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    opacity: .5;
+    z-index: 100;
+}
+#scroll span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    z-index: 100;
+    border: 8px solid transparent;
+    border-bottom-color: #fff;
+}
+#scroll:hover {
+    opacity: 1;
+}
+.spinner2 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+#overlay {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+.welcome {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: #000!important;
+}
+.welcome span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    letter-spacing: 10px;
+    background: rgba(0, 0, 0, .5);
+    font-size: 25px;
+}
+/*All new additions*/
+.mainPage .project_images{
+	    padding: 20px 0;
+}
+ 
+.mainPage .project_images img{
+	height:350px;
+	border:2px solid red;
+}
+.mainPage .project_poster img{
+	width:33%;
+}
+.mainPage .project_murals img{
+	width:49%;
+}
+.project_head{
+	margin-top: 85px;
+    border-top: 1px dashed #000;
+    padding-top: 26px;
+}

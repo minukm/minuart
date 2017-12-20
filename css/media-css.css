@@ -1,1 +1,62 @@
-@media only screen and (max-device-width:768px){.mainPage .my_contacts_info{border-left:none!important;margin-top:0!important}.mainPage .jumbo2{height:500px!important}#scroll{width:65px!important;height:65px!important;right:50px!important;bottom:50px!important;z-index:1!important}.home_page img{height:50%}.images_drawing img{height:100%!important}.artWork .photo ul.topic li.active ul{height:910px!important}.icon_separator{border:1px solid maroon;margin:0 6%!important}.text_bottom{padding-bottom:40px}.top_nav .links{font-size:30px}#myNavbar{text-align:center}.welcome_text{font-size:90px!important}.spinner2{width:150px!important;height:150px!important}}
+@media only screen and (max-device-width:768px) {
+    .mainPage .my_contacts_info {
+        border-left: none!important;
+        margin-top: 0!important
+    }
+    .mainPage .jumbo2 {
+        height: 500px!important
+    }
+    #scroll {
+        width: 65px!important;
+        height: 65px!important;
+        right: 50px!important;
+        bottom: 50px!important;
+        z-index: 1!important
+    }
+    .home_page img {
+        height: 50%
+    }
+    .images_drawing img {
+        height: 100%!important
+    }
+    .artWork .photo ul.topic li.active ul {
+        height: 910px!important
+    }
+    .icon_separator {
+        border: 1px solid maroon;
+        margin: 0 6%!important
+    }
+    .text_bottom {
+        padding-bottom: 40px
+    }
+    .top_nav .links {
+        font-size: 30px
+    }
+    #myNavbar {
+        text-align: center
+    }
+    .welcome_text {
+        font-size: 90px!important
+    }
+    .spinner2 {
+        width: 150px!important;
+        height: 150px!important
+    }
+	.mainPage .project_poster img{
+		height:35%;
+	}
+	.mainPage .project_images img{
+	width:100%;
+}
+	
+}
+@media only screen and (min-device-width:768px){
+	.mainPage .project_poster img{
+	width:30%;
+}
+
+.mainPage .project_images img{
+	height:350px;
+	border:2px solid red;
+}
+}

@@ -6,7 +6,7 @@
 }
 .page {
     font-family: serif;
-    font-size: 20px;
+    font-size: 16px;
     margin: 10px 20px;
 }
 .navbar-fixed-top {
@@ -47,7 +47,7 @@
     text-align: right;
 }
 .mainPage .about_me>h2, .mainPage .contact_me>h2, .mainPage .projects_me>h2 {
-    font-size: 40px;
+    font-size: 35px;
 }
 .mainPage .project_img {
     cursor: pointer;
@@ -203,13 +203,8 @@
 	    padding: 20px 0;
 }
  
-.mainPage .project_images img{
-	height:350px;
-	border:2px solid red;
-}
-.mainPage .project_poster img{
-	width:33%;
-}
+
+
 .mainPage .project_murals img{
 	width:49%;
 }

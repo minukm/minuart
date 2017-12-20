@@ -55,9 +55,12 @@
 @media only screen and (min-device-width:768px){
 
 .mainPage .project_images img{
-	height:350px;
-	border:2px solid red;
+	height:100%;
+	//height:350px;        
 	margin-bottom:10px;
+}
+.logo_clss img{
+	height:350px !important;
 }
 .mainPage .about_me>h2, .mainPage .contact_me>h2, .mainPage .projects_me>h2 {
     font-size: 35px;

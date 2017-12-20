@@ -42,21 +42,16 @@
         width: 150px!important;
         height: 150px!important
     }
-	.mainPage .project_poster img{
-		height:35%;
-	}
 	.mainPage .project_images img{
 	width:100%;
-}
+	}
 	
 }
 @media only screen and (min-device-width:768px){
-	.mainPage .project_poster img{
-	width:30%;
-}
 
 .mainPage .project_images img{
 	height:350px;
 	border:2px solid red;
+	margin-bottom:10px;
 }
 }

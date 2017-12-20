@@ -204,7 +204,7 @@
 }
  
 .mainPage .project_images img{
-	height:350px;
+	height:25%;
 	border:2px solid red;
 }
 .mainPage .project_poster img{

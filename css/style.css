@@ -1,19 +1,24 @@
 @font-face {
-    font-family: dancing_script;
-    src: url(fonts/dancing-script/dancingscript-regular-webfont.woff2) format('woff2'), url(fonts/dancing-script/dancingscript-regular-webfont.woff) format('woff');
-    font-weight: 400;
+    /*font-family: font_awesome;
+    src: url(font_awesome/fonts/fontawesome-webfont.woff2) format('woff2'), url(font_awesome/fonts/fontawesome-webfont.woff) format('woff');
+    */
+	font-weight: 400;
     font-style: normal;
 }
 .page {
-    font-family: serif;
-    font-size: 14px;
+    font-family: Calibri;
+    font-size: 16px;
     margin: 10px 20px;
+	
+}
+p{
+	margin:0;
 }
 .navbar-fixed-top {
     width: 100%}
 .fixed-top {
     border-color: transparent;
-    background: rgba(225, 200, 183, .95);
+    background: rgba(0, 92, 153, .75);
     margin-bottom: 0;
     min-height: 40px;
 }
@@ -26,19 +31,20 @@
 } */
 .fixed-top .top_nav li a {
     text-transform: lowercase;
-    color: #000;
+    color: #fff;
+	font-weight: 700;
     /*text-align: center;*/
 }
 .fixed-top .top_nav li a:focus, .fixed-top .top_nav li a:hover {
     text-transform: lowercase;
-    color: maroon;
-    font-weight: 700;
+    color: #fff;
     transition: transform .3s;
+	background-color:#000066;
 }
 .fixed-top .top_nav .active {
     text-transform: lowercase;
-    color: maroon;
-    font-weight: 700;
+    color: #fff;
+	background-color:#005c99;
 }
 .fixed-top .top_nav .links {
     padding: 10px;
@@ -55,13 +61,14 @@
 .mainPage .underline {
     padding-bottom: 3px;
     border-bottom: 2px solid #000;
+	letter-spacing:4px;
 }
 .mainPage .separator {
-    border: 1px solid maroon;
+    border: 1px solid #002e4d;
     margin: 0;
 }
 .mainPage .nav_separator {
-    border-bottom: .1em solid maroon;
+    //border-bottom: .1em solid #002e4d;
     margin: 0 13px;
     border-top: rgba(234, 239, 229, .5);
 }
@@ -86,13 +93,13 @@
     color: #999;
 }
 .mainPage .contact_me .submit_btn {
-    background-color: maroon;
+    background-color: #005c99;
     color: #fff;
     font-weight: 700;
     font-size: 20px;
 }
 .mainPage .my_contacts_info {
-    border-left: 1px solid maroon;
+    border-left: 1px solid #005c99;
     padding-left: 20px;
     margin-top: 115px;
 }
@@ -103,10 +110,10 @@
 }
 .mainPage .my_credentials span {
     font-size: 18px;
-    color: maroon;
+    color: #005c99;
 }
 .mainPage .my_credentials a {
-    color: maroon;
+    color: #005c99;
 }
 .mainPage .my_credentials a:hover {
     text-decoration: none;
@@ -124,8 +131,9 @@
     text-decoration: none;
 }
 .mainPage .see_more .see_more_btn {
-    background-color: maroon;
+    background-color: #005c99;
     font-size: 20px;
+	margin-top:15px;
 }
 .mainPage .see_more .see_more_btn:focus {
     outline: 0;
@@ -139,7 +147,7 @@
     cursor: pointer;
     width: 50px;
     height: 50px;
-    background-color: maroon;
+    background-color: #005c99;
     text-indent: -9999px;
     display: none;
     -webkit-border-radius: 60px;
@@ -210,4 +218,28 @@
 	margin-top: 85px;
     border-top: 1px dashed #000;
     padding-top: 26px;
+}
+.title_name{
+	color:#005c99;
+	font-weight:bold;
+}
+.dates_on{
+	color:#005c99;
+	//font-weight:bold;
+	margin-bottom:10px;
+	font-style:italic;
+	letter-spacing:3px;
+	font-size:14px;
+}
+.inner_head, .edu{
+	font-weight:bold;
+	//color: #660022;
+	margin-top:15px;
+	text-transform:uppercase;
+}
+.exp_deloitte{
+	font-weight:bold;
+}
+.lineheight{
+	line-height:2;
 }

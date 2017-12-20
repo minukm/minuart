@@ -1,5 +1,5 @@
 
-    /* $(document).on("scroll", onScroll);
+     $(document).on("scroll", onScroll);
 
     //smoothscroll
     $('a[href^="#"]').on('click', function (e) {
@@ -49,4 +49,4 @@ $(document).ready(function(){
         $("html, body").animate({ scrollTop: 0 }, 600);
         return false;
     });
-}); */
+}); 

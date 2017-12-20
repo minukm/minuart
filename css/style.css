@@ -6,14 +6,14 @@
 }
 .page {
     font-family: serif;
-    font-size: 16px;
+    font-size: 14px;
     margin: 10px 20px;
 }
 .navbar-fixed-top {
     width: 100%}
 .fixed-top {
     border-color: transparent;
-    background: rgba(225, 225, 225, .5);
+    background: rgba(225, 200, 183, .95);
     margin-bottom: 0;
     min-height: 40px;
 }
@@ -21,13 +21,13 @@
     display: inline-block;
     float: none;
 }
-.fixed-top .top_nav li {
+/*.fixed-top .top_nav li {
     display: inline-block;
-}
+} */
 .fixed-top .top_nav li a {
     text-transform: lowercase;
     color: #000;
-    text-align: center;
+    /*text-align: center;*/
 }
 .fixed-top .top_nav li a:focus, .fixed-top .top_nav li a:hover {
     text-transform: lowercase;
@@ -46,9 +46,9 @@
 .fixed-top #myNavbar {
     text-align: right;
 }
-.mainPage .about_me>h2, .mainPage .contact_me>h2, .mainPage .projects_me>h2 {
+/*.mainPage .about_me>h2, .mainPage .contact_me>h2, .mainPage .projects_me>h2 {
     font-size: 35px;
-}
+}*/
 .mainPage .project_img {
     cursor: pointer;
 }
@@ -68,7 +68,7 @@
 .mainPage .sections {
     min-height: 500px;
     background-color: #fff;
-    text-align: justify;
+    /*text-align: justify; */
 }
 .mainPage .contact_me .comments {
     width: 100%;
@@ -205,7 +205,6 @@
  
 .mainPage .project_murals img{
 	width:49%;
-	margin-bottom:10px;
 }
 .project_head{
 	margin-top: 85px;

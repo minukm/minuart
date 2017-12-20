@@ -30,7 +30,8 @@
         padding-bottom: 40px
     }
     .top_nav .links {
-        font-size: 30px
+        font-size: 20px;
+		text-align:left;
     }
     #myNavbar {
         text-align: center
@@ -44,7 +45,11 @@
     }
 	.mainPage .project_images img{
 	width:100%;
+		margin-bottom:10px
 	}
+	.mainPage .about_me>h2, .mainPage .contact_me>h2, .mainPage .projects_me>h2 {
+    font-size: 30px;
+}
 	
 }
 @media only screen and (min-device-width:768px){
@@ -53,5 +58,8 @@
 	height:350px;
 	border:2px solid red;
 	margin-bottom:10px;
+}
+.mainPage .about_me>h2, .mainPage .contact_me>h2, .mainPage .projects_me>h2 {
+    font-size: 35px;
 }
 }

@@ -65,4 +65,9 @@
 .mainPage .about_me>h2, .mainPage .contact_me>h2, .mainPage .projects_me>h2 {
     font-size: 35px;
 }
+.sections .wrkexp{
+	background:url(../img/imgs_crusl/del_logo.jpg);
+	background-position: right top;
+		background-repeat: no-repeat;
+}
 }

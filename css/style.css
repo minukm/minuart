@@ -190,14 +190,6 @@ p{
     top: 0;
     z-index: 1000;
 }
-.welcome {
-    position: absolute;
-    left: 0;
-    top: 30%;
-    width: 100%;
-    text-align: center;
-    color: #000!important;
-}
 
 /*All new additions*/
 .mainPage .project_images{

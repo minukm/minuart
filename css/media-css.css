@@ -14,7 +14,7 @@
     z-index: 1!important
     }
     .home_page img {
-        height: 50%
+       // height: 50%
     }
     .images_drawing img {
         height: 100%!important
@@ -64,6 +64,14 @@
     background: rgba(0, 0, 0, .5);
     font-size: 12px;
     }
+	.welcome {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000!important;
+}
 	
 }
 @media only screen and (min-device-width:768px){
@@ -94,5 +102,13 @@
     letter-spacing: 10px;
     background: rgba(0, 0, 0, .5);
     font-size: 25px;
+}
+.welcome {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: #000!important;
 }
 }

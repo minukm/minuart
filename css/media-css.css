@@ -3,15 +3,15 @@
         border-left: none!important;
         margin-top: 0!important
     }
-    .mainPage .jumbo2 {
+    /*.mainPage .jumbo2 {
         height: 500px!important
-    }
+    } */
     #scroll {
-        width: 65px!important;
-        height: 65px!important;
-        right: 50px!important;
-        bottom: 50px!important;
-        z-index: 1!important
+	width: 40px!important;
+	height: 40px!important;
+	right: 15px!important;
+	bottom: 10px!important;
+    z-index: 1!important
     }
     .home_page img {
         height: 50%
@@ -49,7 +49,10 @@
 	}
 	.mainPage .about_me>h2, .mainPage .contact_me>h2, .mainPage .projects_me>h2 {
     font-size: 30px;
-}
+	}
+	.page{
+		font-size: 16px;
+	}
 	
 }
 @media only screen and (min-device-width:768px){
@@ -69,5 +72,8 @@
 	background:url(../img/imgs_crusl/del_logo.jpg);
 	background-position: right top;
 		background-repeat: no-repeat;
+}
+.page{
+	font-size: 20px;
 }
 }

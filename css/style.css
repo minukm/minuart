@@ -123,6 +123,7 @@ p{
 }
 .mainPage .see_more {
     text-align: center;
+	margin-top:35px;
 }
 .mainPage .see_more a {
     color: #fff;
